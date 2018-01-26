@@ -6,7 +6,7 @@ class Movie extends Component {
   render () {
     return (
         <div>
-            <img src={this.props.poster} />
+            <img src={this.props.posterPath} />
             <div className="movie">
               <h2>{this.props.title}</h2>
               <p>{this.props.overview} </p>
