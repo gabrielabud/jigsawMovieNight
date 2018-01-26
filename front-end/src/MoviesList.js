@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import App from './App';
+import Movie from './Movie';
 import PropTypes from 'prop-types';
 
 const MoviesList = props => {
