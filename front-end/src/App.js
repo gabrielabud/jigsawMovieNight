@@ -33,11 +33,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Dream team Movies App</h1>
+          <h1 className="App-title">Dream Team Movies App</h1>
         </header>
         <div>
           <MoviesList movies={this.state.moviesList}/>
-          console.log(this.state.moviesList)
         </div>
       </div>
     );

@@ -13,7 +13,7 @@ const MoviesList = props => {
               id={movie.id}
               title={movie.title}
               overview={movie.overview}
-              poster={movie.poster_path}
+              poster={"https://image.tmdb.org/t/p/w150"+ movie.poster_path}
             />
           </div>
         ))
